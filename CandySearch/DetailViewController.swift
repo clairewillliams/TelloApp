@@ -29,8 +29,9 @@
 import UIKit
 
 class DetailViewController: UIViewController {
+  
+  @IBOutlet weak var DoctorName: UILabel!
   @IBOutlet weak var detailDescriptionLabel: UILabel!
-  @IBOutlet weak var candyImageView: UIImageView!
   
   var candy: Candy? {
     didSet {
@@ -43,15 +44,28 @@ class DetailViewController: UIViewController {
     
     configureView()
   }
+  @IBAction func BookAppointment(_ sender: UIButton) {
+    let alertController = UIAlertController(title: "Book Appointment", message:
+            "You've successfully booked your appointment!", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+
+        self.present(alertController, animated: true, completion: nil)
+  }
   
   func configureView() {
+//    if var Candy = candy{
+//      var doctorNameText = Candy.name
+//      doctorNameText = DoctorName.text
+//    }
+//
     //where to add print statements
-    if let candy = candy,
-      let detailDescriptionLabel = detailDescriptionLabel,
-      let candyImageView = candyImageView {
-      detailDescriptionLabel.text = candy.name
-      candyImageView.image = UIImage(named: candy.name)
-      title = candy.specialty.rawValue
+//    if let newTitle = candy{
+//      candy.name = newTitle
+//    }
+   
+
+     
+    
     }
   }
-}
+
