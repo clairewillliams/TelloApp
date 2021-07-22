@@ -40,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
   
   func configureAppearance() {
-    UISearchBar.appearance().tintColor = .candyGreen
-    UINavigationBar.appearance().tintColor = .candyGreen
+    UISearchBar.appearance().tintColor = .indigoDye
+    UINavigationBar.appearance().tintColor = .indigoDye
   }
 }
