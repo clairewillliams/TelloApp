@@ -159,11 +159,11 @@ Self Actualization and Spiritual Growth</string>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="3Xa-ur-WNN"/>
                                     <barButtonItem title="Item" image="house.fill" catalog="system" id="DIS-2x-YEL">
-                                        <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.10588235294117647" green="0.28627450980392155" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="o5R-mo-eNS"/>
                                     <barButtonItem title="Item" image="magnifyingglass" catalog="system" id="QRl-U7-mGe">
-                                        <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1058823529" green="0.28627450980000002" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="RMx-3f-FxP" kind="show" id="neI-ry-8hp"/>
                                         </connections>
