@@ -1,0 +1,16 @@
+[
+  { "name": "Dr. Ray", "specialty": "Medicine" },
+  { "name": "Dr. J Bill", "specialty": "Medicine" },
+  { "name": "Dr. Rappa", "specialty": "Anxiety" },
+  { "name": "Dr. Patel", "specialty": "ADHD" },
+  { "name": "Dr. L Cuddy", "specialty": "ADHD" },
+  { "name": "Dr. Kiln", "specialty": "Anxiety" },
+  { "name": "Dr. O Lucas", "specialty": "Anxiety" },
+  { "name": "Dr. Harbor", "specialty": "Anxiety" },
+  { "name": "Dr. Ashanti", "specialty": "Medicine" },
+  { "name": "Dr. House", "specialty": "Medicine" },
+  { "name": "Dr. Jones", "specialty": "ADHD" },
+  { "name": "Dr. Floss", "specialty": "Anxiety" },
+  { "name": "Dr. Ben", "specialty": "ADHD" },
+  { "name": "Dr. Nichols", "specialty": "Anxiety" },
+]
