@@ -45,6 +45,7 @@ class DetailViewController: UIViewController {
   }
   
   func configureView() {
+    //where to add print statements
     if let candy = candy,
       let detailDescriptionLabel = detailDescriptionLabel,
       let candyImageView = candyImageView {
